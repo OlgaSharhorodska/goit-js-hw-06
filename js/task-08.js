@@ -14,6 +14,8 @@ function handleSubmit(evt) {
     if (email.value === "" || password.value === "") {
         return console.log("Заповніть логін та пароль!");
     }
-    console.log(`Ваш логін ${email.value}, ваш пароль ${password.value}`);
+    // console.log(`Ваш логін ${email.value}, ваш пароль ${password.value}`);
+    console.log(formData);
+    
     evt.currentTarget.reset();
 }
